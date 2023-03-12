@@ -38,11 +38,11 @@ def login(username, password):
         status_login = False
 
     if not status_login:
-        clear()
+        # clear()
         print("Successful Login")
         return True
     else:
-        clear()
+        # clear()
         print("Username or password was incorrect")
         return False
 
@@ -67,6 +67,9 @@ def set_csrf_cookie():
         else:
             print("Cannot create csrf token")
             return False
+    else:
+        return True
+
 
 
 def run():
