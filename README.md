@@ -1,4 +1,4 @@
-# instagram-csrf-bypass-selenum
+# Instagram CSRF Error Bypasser
 <b>Fix Instagram CSRF error While login</b>
 
 This problem occurs when your IP is on the block list.
